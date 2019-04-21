@@ -1,2 +1,3 @@
-# CKA_CKAD_Study_Guide
+# Cracking the CKA and CKAD
+
 My reference notes for the CKA and CKAD exams
