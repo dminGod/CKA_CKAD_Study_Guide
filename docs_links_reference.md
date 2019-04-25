@@ -12,6 +12,35 @@ Links in the sections:
 |Tutorials |  	38 | 	Tutorials that cover end to end tasks -- more suited for beginers |
 |Reference |  	68 |  Reference of specific tools (kubectl, kubeadm) and components |
 
+### Setup
+Instructions for setting up a Kubernetes cluster
+
+- What solutions to pick
+- Download v1.14 alpha1, current release (all binaries) and page to do your own build
+- **Section - Kubeadm**:
+  - Bootstrap your own server using kubeadm
+  - Make Highly available(HA) clusters and HA etcd clusters
+  - Kubelet configuration using kubeadm
+  - Troubleshooting kubeadm
+- Section turnkey solutions (AWS EC2, Alibaba cloud, Azure, Google Compute ... etc)
+- **Section Custom Cloud Solutions**:
+  - Kubespray to install on-premise/cloud providers
+  - Kops to install on AWS
+- **Section On-Premises VMs** - Cloudstack, K8s on DC/OS, oVirt
+- **Section Windows in K8s** 
+  - Intro to windows in k8s
+  - Adding windows nodes in k8s
+  - scheduling windows containers in k8s
+- K8s Version and Version Skew support policy
+- Building Large Cluster
+- Running in Multiple Zones
+- CRI (Container Runtime Interface) Installation -- Docker, CRI-O, Containerd, frakti
+- Install K8s with Digital Rebar Provision ( On premise installation helper )
+- **PKI Certificates and Requirements** What component utilizes which certificates. Very good page.
+- Running K8s locally with minikube ( Detailed page )
+- Validate Node Setup (Node Conformance Test)
+
+
 
 |Section | Page description |
 | --- | --- |
